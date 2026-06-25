@@ -1,0 +1,11 @@
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\bin\Debug\BiMonthlyBooklet.exe.config
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\bin\Debug\BiMonthlyBooklet.exe
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\bin\Debug\BiMonthlyBooklet.pdb
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.csproj.AssemblyReference.cache
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.Form1.resources
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.Properties.Resources.resources
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.csproj.GenerateResource.cache
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.csproj.CoreCompileInputs.cache
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.exe
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.pdb
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.MainMenu.resources
