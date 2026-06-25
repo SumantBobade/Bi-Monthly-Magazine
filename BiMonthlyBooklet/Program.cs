@@ -3,14 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace BiMonthlyBooklet
 {
+    public class connection
+    {
+        public static SqlConnection con = new SqlConnection("server=(localdb)\\MSSQLLocalDB;Database=Magzine;UID=sa;Password=sasa")
+    }
     internal static class Program
     {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
+        
+
+
         [STAThread]
         static void Main()
         {

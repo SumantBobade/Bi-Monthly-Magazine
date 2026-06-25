@@ -74,6 +74,7 @@
             this.addNewRecordToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.A)));
             this.addNewRecordToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
             this.addNewRecordToolStripMenuItem.Text = "&Add New Record";
+            this.addNewRecordToolStripMenuItem.Click += new System.EventHandler(this.addNewRecordToolStripMenuItem_Click);
             // 
             // updateRecordToolStripMenuItem
             // 
@@ -81,6 +82,7 @@
             this.updateRecordToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.U)));
             this.updateRecordToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
             this.updateRecordToolStripMenuItem.Text = "&Update Record";
+            this.updateRecordToolStripMenuItem.Click += new System.EventHandler(this.updateRecordToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -88,6 +90,7 @@
             this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.E)));
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
             this.exitToolStripMenuItem.Text = "&Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
             // 
@@ -105,6 +108,7 @@
             this.viewAllRecordsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.R)));
             this.viewAllRecordsToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.viewAllRecordsToolStripMenuItem.Text = "View All &Records";
+            this.viewAllRecordsToolStripMenuItem.Click += new System.EventHandler(this.viewAllRecordsToolStripMenuItem_Click);
             // 
             // generateRecordsToolStripMenuItem
             // 
@@ -112,6 +116,7 @@
             this.generateRecordsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.G)));
             this.generateRecordsToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.generateRecordsToolStripMenuItem.Text = "&Generate Records";
+            this.generateRecordsToolStripMenuItem.Click += new System.EventHandler(this.generateRecordsToolStripMenuItem_Click);
             // 
             // complaintsToolStripMenuItem
             // 
@@ -130,6 +135,7 @@
             this.addNewComplaintToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.N)));
             this.addNewComplaintToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.addNewComplaintToolStripMenuItem.Text = "Add &New Complaint";
+            this.addNewComplaintToolStripMenuItem.Click += new System.EventHandler(this.addNewComplaintToolStripMenuItem_Click);
             // 
             // viewAllComplaintsToolStripMenuItem
             // 
@@ -137,12 +143,14 @@
             this.viewAllComplaintsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.V)));
             this.viewAllComplaintsToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.viewAllComplaintsToolStripMenuItem.Text = "&View All Complaints";
+            this.viewAllComplaintsToolStripMenuItem.Click += new System.EventHandler(this.viewAllComplaintsToolStripMenuItem_Click);
             // 
             // updateCloseComplaintsToolStripMenuItem
             // 
             this.updateCloseComplaintsToolStripMenuItem.Name = "updateCloseComplaintsToolStripMenuItem";
-            this.updateCloseComplaintsToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
+            this.updateCloseComplaintsToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.updateCloseComplaintsToolStripMenuItem.Text = "Update/Close Complaints";
+            this.updateCloseComplaintsToolStripMenuItem.Click += new System.EventHandler(this.updateCloseComplaintsToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 
@@ -158,7 +166,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainMenu";
-            this.Text = "MainMenu";
+            this.Text = "Bi Monthly Magazine Main Page";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainMenu_FormClosing);
             this.menuStrip1.ResumeLayout(false);

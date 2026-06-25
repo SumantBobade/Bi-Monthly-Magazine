@@ -9,3 +9,10 @@ D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.csproj.CoreCo
 D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.exe
 D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.pdb
 D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.MainMenu.resources
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.AddNewForm.resources
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.GenerateReportForm.resources
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.UpdateRecordForm.resources
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.ViewRecordForm.resources
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.AddingComplentForm.resources
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.UpdateComplaintForm.resources
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.ViewComplaintForm.resources
