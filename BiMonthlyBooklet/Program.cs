@@ -10,7 +10,8 @@ namespace BiMonthlyBooklet
 {
     public class connection
     {
-        public static SqlConnection con = new SqlConnection("server=(localdb)\\MSSQLLocalDB;Database=Magzine;UID=sa;Password=sasa")
+        // Trusted_Connection=True tells SQL Server to use your Windows account to log in safely
+        public static SqlConnection con = new SqlConnection("server=(localdb)\\MSSQLLocalDB;Database=Magzine;Trusted_Connection=True;");
     }
     internal static class Program
     {

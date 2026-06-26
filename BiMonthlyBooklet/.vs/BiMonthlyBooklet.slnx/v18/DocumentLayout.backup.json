@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\viewcomplaintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:viewcomplaintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\updatecomplaintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:updatecomplaintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\addingcomplentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:addingcomplentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +15,44 @@
       "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\generatereportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:generatereportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\viewrecordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:viewrecordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\updaterecordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:updaterecordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\addnewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:addnewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\viewcomplaintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:viewcomplaintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\updatecomplaintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:updatecomplaintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\addingcomplentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:addingcomplentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\generatereportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:generatereportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\viewrecordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:viewrecordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\updaterecordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:updaterecordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\addnewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:addnewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,97 +62,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainMenu.cs [Design]",
-              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\MainMenu.cs",
-              "RelativeDocumentMoniker": "MainMenu.cs",
-              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\MainMenu.cs [Design]*",
-              "RelativeToolTip": "MainMenu.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T10:29:55.919Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\MainMenu.cs",
-              "RelativeDocumentMoniker": "MainMenu.cs",
-              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\MainMenu.cs*",
-              "RelativeToolTip": "MainMenu.cs*",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAEwEsAAAAWAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T11:09:19.846Z",
+              "WhenOpened": "2026-06-25T17:29:38.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ViewComplaintForm.cs [Design]",
-              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\ViewComplaintForm.cs",
-              "RelativeDocumentMoniker": "ViewComplaintForm.cs",
-              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\ViewComplaintForm.cs [Design]*",
-              "RelativeToolTip": "ViewComplaintForm.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T16:58:36.184Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateComplaintForm.cs [Design]",
-              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\UpdateComplaintForm.cs",
-              "RelativeDocumentMoniker": "UpdateComplaintForm.cs",
-              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\UpdateComplaintForm.cs [Design]*",
-              "RelativeToolTip": "UpdateComplaintForm.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T16:57:02.537Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddingComplentForm.cs [Design]",
-              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\AddingComplentForm.cs",
-              "RelativeDocumentMoniker": "AddingComplentForm.cs",
-              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\AddingComplentForm.cs [Design]*",
-              "RelativeToolTip": "AddingComplentForm.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T16:54:55.174Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAawBcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T10:18:59.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GenerateReportForm.cs [Design]",
-              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\GenerateReportForm.cs",
-              "RelativeDocumentMoniker": "GenerateReportForm.cs",
-              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\GenerateReportForm.cs [Design]",
-              "RelativeToolTip": "GenerateReportForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T16:43:24.678Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -160,52 +91,129 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T10:18:59.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainMenu.cs [Design]",
+              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\MainMenu.cs [Design]",
+              "RelativeToolTip": "MainMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T10:29:55.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\MainMenu.cs",
+              "RelativeToolTip": "MainMenu.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAEwEsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:09:19.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T10:25:24.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewComplaintForm.cs [Design]",
+              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\ViewComplaintForm.cs",
+              "RelativeDocumentMoniker": "ViewComplaintForm.cs",
+              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\ViewComplaintForm.cs [Design]",
+              "RelativeToolTip": "ViewComplaintForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T16:58:36.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateComplaintForm.cs [Design]",
+              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\UpdateComplaintForm.cs",
+              "RelativeDocumentMoniker": "UpdateComplaintForm.cs",
+              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\UpdateComplaintForm.cs [Design]",
+              "RelativeToolTip": "UpdateComplaintForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T16:57:02.537Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "AddingComplentForm.cs [Design]",
+              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\AddingComplentForm.cs",
+              "RelativeDocumentMoniker": "AddingComplentForm.cs",
+              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\AddingComplentForm.cs [Design]",
+              "RelativeToolTip": "AddingComplentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T16:54:55.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenerateReportForm.cs [Design]",
+              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\GenerateReportForm.cs",
+              "RelativeDocumentMoniker": "GenerateReportForm.cs",
+              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\GenerateReportForm.cs [Design]",
+              "RelativeToolTip": "GenerateReportForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T16:43:24.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ViewRecordForm.cs [Design]",
               "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\ViewRecordForm.cs",
               "RelativeDocumentMoniker": "ViewRecordForm.cs",
               "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\ViewRecordForm.cs [Design]",
               "RelativeToolTip": "ViewRecordForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T16:41:35.979Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-25T16:41:35.979Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UpdateRecordForm.cs [Design]",
               "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\UpdateRecordForm.cs",
               "RelativeDocumentMoniker": "UpdateRecordForm.cs",
               "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\UpdateRecordForm.cs [Design]",
               "RelativeToolTip": "UpdateRecordForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T16:39:12.618Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-25T16:39:12.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AddNewForm.cs [Design]",
               "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\AddNewForm.cs",
               "RelativeDocumentMoniker": "AddNewForm.cs",
               "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\AddNewForm.cs [Design]",
               "RelativeToolTip": "AddNewForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T16:37:45.567Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T10:25:24.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T16:37:45.567Z"
             }
           ]
         }

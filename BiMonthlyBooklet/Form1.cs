@@ -34,8 +34,21 @@ namespace BiMonthlyBooklet
             //{
             //    MessageBox.Show("Invalid UserName or Password.");
             //}
-            string str = "Select Username, password from Login where Username='"+textBox1.Text + "' and password='"+textBox2.Text"'";
+            string str = "Select Username, password from Login where Username='" + textBox1.Text + "' and password='" + textBox2.Text + "'";
             SqlDataAdapter adp = new SqlDataAdapter(str, connection.con);
+            DataSet ds = new DataSet();
+            adp.Fill(ds, "Login");
+            DataTable dt = ds.Tables[0];
+            if(dt.Rows.Count > 0)
+            {
+                MainMenu m1 = new MainMenu();
+                this.Hide();
+                m1.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid UserName or Password");
+            }
         }
 
         private void exit_btn_Click(object sender, EventArgs e)
