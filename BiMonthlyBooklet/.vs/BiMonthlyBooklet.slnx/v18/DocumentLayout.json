@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\addnewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:addnewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\addnewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:addnewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\addnewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:addnewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AddNewForm.cs [Design]",
               "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\AddNewForm.cs",
               "RelativeDocumentMoniker": "AddNewForm.cs",
@@ -82,13 +82,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AddNewForm.cs",
               "DocumentMoniker": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\AddNewForm.cs",
               "RelativeDocumentMoniker": "AddNewForm.cs",
               "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\AddNewForm.cs",
               "RelativeToolTip": "AddNewForm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAewDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAMwK0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-26T11:14:11.571Z",
               "EditorCaption": ""

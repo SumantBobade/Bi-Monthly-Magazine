@@ -32,58 +32,58 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Language = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.SubNo = new System.Windows.Forms.TextBox();
+            this.ReciptNo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.Title = new System.Windows.Forms.ComboBox();
+            this.FirstName = new System.Windows.Forms.TextBox();
+            this.MiddleName = new System.Windows.Forms.TextBox();
+            this.LastName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.Address = new System.Windows.Forms.RichTextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.City = new System.Windows.Forms.ComboBox();
+            this.State = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.Country = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.PinCode = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.ContactPerson = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.MobileNo = new System.Windows.Forms.TextBox();
+            this.TelNo = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.CenterName = new System.Windows.Forms.ComboBox();
+            this.AtCenter = new System.Windows.Forms.RadioButton();
+            this.Direct = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.year5 = new System.Windows.Forms.RadioButton();
+            this.year3 = new System.Windows.Forms.RadioButton();
+            this.year1 = new System.Windows.Forms.RadioButton();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.AccNo = new System.Windows.Forms.TextBox();
+            this.BookAtCenter = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.StartDate = new System.Windows.Forms.DateTimePicker();
+            this.EndDate = new System.Windows.Forms.DateTimePicker();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.CopyIssued = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.SubEmail = new System.Windows.Forms.TextBox();
+            this.AddRecord = new System.Windows.Forms.Button();
+            this.Clear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -115,7 +115,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.Language);
             this.groupBox1.Font = new System.Drawing.Font("Palatino Linotype", 12F);
             this.groupBox1.Location = new System.Drawing.Point(16, 98);
             this.groupBox1.Name = "groupBox1";
@@ -124,18 +124,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Subscriber Language";
             // 
-            // comboBox1
+            // Language
             // 
-            this.comboBox1.AllowDrop = true;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.Language.AllowDrop = true;
+            this.Language.FormattingEnabled = true;
+            this.Language.Items.AddRange(new object[] {
             "English",
             "Hindi"});
-            this.comboBox1.Location = new System.Drawing.Point(61, 25);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(152, 30);
-            this.comboBox1.TabIndex = 0;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.Language.Location = new System.Drawing.Point(61, 25);
+            this.Language.Name = "Language";
+            this.Language.Size = new System.Drawing.Size(152, 30);
+            this.Language.TabIndex = 0;
+            this.Language.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -147,21 +147,21 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Subscription No:-";
             // 
-            // textBox1
+            // SubNo
             // 
-            this.textBox1.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.textBox1.Location = new System.Drawing.Point(375, 105);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(149, 29);
-            this.textBox1.TabIndex = 4;
+            this.SubNo.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.SubNo.Location = new System.Drawing.Point(375, 105);
+            this.SubNo.Name = "SubNo";
+            this.SubNo.Size = new System.Drawing.Size(149, 29);
+            this.SubNo.TabIndex = 4;
             // 
-            // textBox2
+            // ReciptNo
             // 
-            this.textBox2.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.textBox2.Location = new System.Drawing.Point(631, 105);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(156, 29);
-            this.textBox2.TabIndex = 6;
+            this.ReciptNo.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.ReciptNo.Location = new System.Drawing.Point(631, 105);
+            this.ReciptNo.Name = "ReciptNo";
+            this.ReciptNo.Size = new System.Drawing.Size(156, 29);
+            this.ReciptNo.TabIndex = 6;
             // 
             // label3
             // 
@@ -184,43 +184,43 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Name:-";
             // 
-            // comboBox2
+            // Title
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.Title.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.Title.FormattingEnabled = true;
+            this.Title.Items.AddRange(new object[] {
             "Mr.",
             "Mrs.",
             "Miss.",
             "Mst."});
-            this.comboBox2.Location = new System.Drawing.Point(79, 169);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(74, 30);
-            this.comboBox2.TabIndex = 8;
+            this.Title.Location = new System.Drawing.Point(79, 169);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(74, 30);
+            this.Title.TabIndex = 8;
             // 
-            // textBox3
+            // FirstName
             // 
-            this.textBox3.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.textBox3.Location = new System.Drawing.Point(180, 170);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(149, 29);
-            this.textBox3.TabIndex = 9;
+            this.FirstName.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.FirstName.Location = new System.Drawing.Point(180, 170);
+            this.FirstName.Name = "FirstName";
+            this.FirstName.Size = new System.Drawing.Size(149, 29);
+            this.FirstName.TabIndex = 9;
             // 
-            // textBox4
+            // MiddleName
             // 
-            this.textBox4.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.textBox4.Location = new System.Drawing.Point(366, 169);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(149, 29);
-            this.textBox4.TabIndex = 10;
+            this.MiddleName.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.MiddleName.Location = new System.Drawing.Point(366, 169);
+            this.MiddleName.Name = "MiddleName";
+            this.MiddleName.Size = new System.Drawing.Size(149, 29);
+            this.MiddleName.TabIndex = 10;
             // 
-            // textBox5
+            // LastName
             // 
-            this.textBox5.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.textBox5.Location = new System.Drawing.Point(543, 169);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(149, 29);
-            this.textBox5.TabIndex = 11;
+            this.LastName.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.LastName.Location = new System.Drawing.Point(543, 169);
+            this.LastName.Name = "LastName";
+            this.LastName.Size = new System.Drawing.Size(149, 29);
+            this.LastName.TabIndex = 11;
             // 
             // label5
             // 
@@ -273,13 +273,13 @@
             this.label9.TabIndex = 16;
             this.label9.Text = "Address:-";
             // 
-            // richTextBox1
+            // Address
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(91, 249);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(238, 96);
-            this.richTextBox1.TabIndex = 17;
-            this.richTextBox1.Text = "";
+            this.Address.Location = new System.Drawing.Point(91, 249);
+            this.Address.Name = "Address";
+            this.Address.Size = new System.Drawing.Size(238, 96);
+            this.Address.TabIndex = 17;
+            this.Address.Text = "";
             // 
             // label10
             // 
@@ -292,11 +292,11 @@
             this.label10.Text = "City:-";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
-            // comboBox3
+            // City
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.City.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.City.FormattingEnabled = true;
+            this.City.Items.AddRange(new object[] {
             "Ahmedabad",
             "",
             "",
@@ -355,16 +355,16 @@
             "",
             "",
             "Wardha"});
-            this.comboBox3.Location = new System.Drawing.Point(416, 246);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(129, 30);
-            this.comboBox3.TabIndex = 19;
+            this.City.Location = new System.Drawing.Point(416, 246);
+            this.City.Name = "City";
+            this.City.Size = new System.Drawing.Size(129, 30);
+            this.City.TabIndex = 19;
             // 
-            // comboBox4
+            // State
             // 
-            this.comboBox4.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.State.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.State.FormattingEnabled = true;
+            this.State.Items.AddRange(new object[] {
             "",
             "Andhra Pradesh",
             "",
@@ -421,10 +421,10 @@
             "Uttarakhand",
             "",
             "West Bengal"});
-            this.comboBox4.Location = new System.Drawing.Point(416, 279);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(129, 30);
-            this.comboBox4.TabIndex = 21;
+            this.State.Location = new System.Drawing.Point(416, 279);
+            this.State.Name = "State";
+            this.State.Size = new System.Drawing.Size(129, 30);
+            this.State.TabIndex = 21;
             // 
             // label11
             // 
@@ -436,19 +436,19 @@
             this.label11.TabIndex = 20;
             this.label11.Text = "State:-";
             // 
-            // comboBox5
+            // Country
             // 
-            this.comboBox5.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.Country.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.Country.FormattingEnabled = true;
+            this.Country.Items.AddRange(new object[] {
             "Mr.",
             "Mrs.",
             "Miss.",
             "Mst."});
-            this.comboBox5.Location = new System.Drawing.Point(416, 315);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(129, 30);
-            this.comboBox5.TabIndex = 23;
+            this.Country.Location = new System.Drawing.Point(416, 315);
+            this.Country.Name = "Country";
+            this.Country.Size = new System.Drawing.Size(129, 30);
+            this.Country.TabIndex = 23;
             // 
             // label12
             // 
@@ -470,13 +470,13 @@
             this.label13.TabIndex = 24;
             this.label13.Text = "Pin Code:-";
             // 
-            // textBox6
+            // PinCode
             // 
-            this.textBox6.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.textBox6.Location = new System.Drawing.Point(664, 246);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(123, 29);
-            this.textBox6.TabIndex = 25;
+            this.PinCode.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.PinCode.Location = new System.Drawing.Point(664, 246);
+            this.PinCode.Name = "PinCode";
+            this.PinCode.Size = new System.Drawing.Size(123, 29);
+            this.PinCode.TabIndex = 25;
             // 
             // label14
             // 
@@ -488,17 +488,17 @@
             this.label14.TabIndex = 26;
             this.label14.Text = "Contact Person:-";
             // 
-            // comboBox6
+            // ContactPerson
             // 
-            this.comboBox6.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.ContactPerson.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.ContactPerson.FormattingEnabled = true;
+            this.ContactPerson.Items.AddRange(new object[] {
             "Subscriber Himself",
             "Sponserer"});
-            this.comboBox6.Location = new System.Drawing.Point(140, 368);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(147, 30);
-            this.comboBox6.TabIndex = 27;
+            this.ContactPerson.Location = new System.Drawing.Point(140, 368);
+            this.ContactPerson.Name = "ContactPerson";
+            this.ContactPerson.Size = new System.Drawing.Size(147, 30);
+            this.ContactPerson.TabIndex = 27;
             // 
             // label15
             // 
@@ -510,21 +510,21 @@
             this.label15.TabIndex = 28;
             this.label15.Text = "Mobile No:-";
             // 
-            // textBox7
+            // MobileNo
             // 
-            this.textBox7.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.textBox7.Location = new System.Drawing.Point(390, 369);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(166, 29);
-            this.textBox7.TabIndex = 29;
+            this.MobileNo.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.MobileNo.Location = new System.Drawing.Point(390, 369);
+            this.MobileNo.Name = "MobileNo";
+            this.MobileNo.Size = new System.Drawing.Size(166, 29);
+            this.MobileNo.TabIndex = 29;
             // 
-            // textBox8
+            // TelNo
             // 
-            this.textBox8.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.textBox8.Location = new System.Drawing.Point(631, 369);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(160, 29);
-            this.textBox8.TabIndex = 31;
+            this.TelNo.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.TelNo.Location = new System.Drawing.Point(631, 369);
+            this.TelNo.Name = "TelNo";
+            this.TelNo.Size = new System.Drawing.Size(160, 29);
+            this.TelNo.TabIndex = 31;
             // 
             // label16
             // 
@@ -539,9 +539,9 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox2.Controls.Add(this.comboBox7);
-            this.groupBox2.Controls.Add(this.radioButton2);
-            this.groupBox2.Controls.Add(this.radioButton1);
+            this.groupBox2.Controls.Add(this.CenterName);
+            this.groupBox2.Controls.Add(this.AtCenter);
+            this.groupBox2.Controls.Add(this.Direct);
             this.groupBox2.Font = new System.Drawing.Font("Palatino Linotype", 12F);
             this.groupBox2.Location = new System.Drawing.Point(16, 418);
             this.groupBox2.Name = "groupBox2";
@@ -550,48 +550,48 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Mode of Delivery";
             // 
-            // radioButton1
+            // CenterName
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(7, 29);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(69, 26);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Direct";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(75, 29);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(92, 26);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "At Center";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
+            this.CenterName.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.CenterName.FormattingEnabled = true;
+            this.CenterName.Items.AddRange(new object[] {
             "Mr.",
             "Mrs.",
             "Miss.",
             "Mst."});
-            this.comboBox7.Location = new System.Drawing.Point(164, 25);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(107, 30);
-            this.comboBox7.TabIndex = 32;
+            this.CenterName.Location = new System.Drawing.Point(164, 25);
+            this.CenterName.Name = "CenterName";
+            this.CenterName.Size = new System.Drawing.Size(107, 30);
+            this.CenterName.TabIndex = 32;
+            // 
+            // AtCenter
+            // 
+            this.AtCenter.AutoSize = true;
+            this.AtCenter.Location = new System.Drawing.Point(75, 29);
+            this.AtCenter.Name = "AtCenter";
+            this.AtCenter.Size = new System.Drawing.Size(92, 26);
+            this.AtCenter.TabIndex = 1;
+            this.AtCenter.TabStop = true;
+            this.AtCenter.Text = "At Center";
+            this.AtCenter.UseVisualStyleBackColor = true;
+            // 
+            // Direct
+            // 
+            this.Direct.AutoSize = true;
+            this.Direct.Location = new System.Drawing.Point(7, 29);
+            this.Direct.Name = "Direct";
+            this.Direct.Size = new System.Drawing.Size(69, 26);
+            this.Direct.TabIndex = 0;
+            this.Direct.TabStop = true;
+            this.Direct.Text = "Direct";
+            this.Direct.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox3.Controls.Add(this.radioButton5);
-            this.groupBox3.Controls.Add(this.radioButton3);
-            this.groupBox3.Controls.Add(this.radioButton4);
+            this.groupBox3.Controls.Add(this.year5);
+            this.groupBox3.Controls.Add(this.year3);
+            this.groupBox3.Controls.Add(this.year1);
             this.groupBox3.Font = new System.Drawing.Font("Palatino Linotype", 12F);
             this.groupBox3.Location = new System.Drawing.Point(312, 418);
             this.groupBox3.Name = "groupBox3";
@@ -600,38 +600,38 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Subscription No. Of Year";
             // 
-            // radioButton3
+            // year5
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(117, 29);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(71, 26);
-            this.radioButton3.TabIndex = 1;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "3 Year";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.year5.AutoSize = true;
+            this.year5.Location = new System.Drawing.Point(232, 29);
+            this.year5.Name = "year5";
+            this.year5.Size = new System.Drawing.Size(71, 26);
+            this.year5.TabIndex = 2;
+            this.year5.TabStop = true;
+            this.year5.Text = "5 Year";
+            this.year5.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // year3
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(7, 29);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(71, 26);
-            this.radioButton4.TabIndex = 0;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "1 Year";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.year3.AutoSize = true;
+            this.year3.Location = new System.Drawing.Point(117, 29);
+            this.year3.Name = "year3";
+            this.year3.Size = new System.Drawing.Size(71, 26);
+            this.year3.TabIndex = 1;
+            this.year3.TabStop = true;
+            this.year3.Text = "3 Year";
+            this.year3.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // year1
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(232, 29);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(71, 26);
-            this.radioButton5.TabIndex = 2;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "5 Year";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.year1.AutoSize = true;
+            this.year1.Location = new System.Drawing.Point(7, 29);
+            this.year1.Name = "year1";
+            this.year1.Size = new System.Drawing.Size(71, 26);
+            this.year1.TabIndex = 0;
+            this.year1.TabStop = true;
+            this.year1.Text = "1 Year";
+            this.year1.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
@@ -643,25 +643,25 @@
             this.label17.TabIndex = 34;
             this.label17.Text = "Acc No:-";
             // 
-            // textBox9
+            // AccNo
             // 
-            this.textBox9.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.textBox9.Location = new System.Drawing.Point(635, 447);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(160, 29);
-            this.textBox9.TabIndex = 35;
+            this.AccNo.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.AccNo.Location = new System.Drawing.Point(635, 447);
+            this.AccNo.Name = "AccNo";
+            this.AccNo.Size = new System.Drawing.Size(160, 29);
+            this.AccNo.TabIndex = 35;
             // 
-            // comboBox8
+            // BookAtCenter
             // 
-            this.comboBox8.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
+            this.BookAtCenter.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.BookAtCenter.FormattingEnabled = true;
+            this.BookAtCenter.Items.AddRange(new object[] {
             "Subscriber Himself",
             "Sponserer"});
-            this.comboBox8.Location = new System.Drawing.Point(150, 491);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(147, 30);
-            this.comboBox8.TabIndex = 37;
+            this.BookAtCenter.Location = new System.Drawing.Point(150, 491);
+            this.BookAtCenter.Name = "BookAtCenter";
+            this.BookAtCenter.Size = new System.Drawing.Size(147, 30);
+            this.BookAtCenter.TabIndex = 37;
             // 
             // label18
             // 
@@ -683,21 +683,21 @@
             this.label19.TabIndex = 38;
             this.label19.Text = "Start Date:-";
             // 
-            // dateTimePicker1
+            // StartDate
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(395, 489);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(154, 29);
-            this.dateTimePicker1.TabIndex = 39;
+            this.StartDate.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.StartDate.Location = new System.Drawing.Point(395, 489);
+            this.StartDate.Name = "StartDate";
+            this.StartDate.Size = new System.Drawing.Size(154, 29);
+            this.StartDate.TabIndex = 39;
             // 
-            // dateTimePicker2
+            // EndDate
             // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.dateTimePicker2.Location = new System.Drawing.Point(640, 489);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(155, 29);
-            this.dateTimePicker2.TabIndex = 41;
+            this.EndDate.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.EndDate.Location = new System.Drawing.Point(640, 489);
+            this.EndDate.Name = "EndDate";
+            this.EndDate.Size = new System.Drawing.Size(155, 29);
+            this.EndDate.TabIndex = 41;
             // 
             // label20
             // 
@@ -719,13 +719,13 @@
             this.label21.TabIndex = 42;
             this.label21.Text = "Copy Issued:-";
             // 
-            // textBox10
+            // CopyIssued
             // 
-            this.textBox10.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.textBox10.Location = new System.Drawing.Point(120, 525);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(94, 29);
-            this.textBox10.TabIndex = 43;
+            this.CopyIssued.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.CopyIssued.Location = new System.Drawing.Point(120, 525);
+            this.CopyIssued.Name = "CopyIssued";
+            this.CopyIssued.Size = new System.Drawing.Size(94, 29);
+            this.CopyIssued.TabIndex = 43;
             // 
             // label22
             // 
@@ -737,37 +737,38 @@
             this.label22.TabIndex = 44;
             this.label22.Text = "Sub-Email-ID:-";
             // 
-            // textBox11
+            // SubEmail
             // 
-            this.textBox11.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.textBox11.Location = new System.Drawing.Point(346, 524);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(160, 29);
-            this.textBox11.TabIndex = 45;
+            this.SubEmail.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.SubEmail.Location = new System.Drawing.Point(346, 524);
+            this.SubEmail.Name = "SubEmail";
+            this.SubEmail.Size = new System.Drawing.Size(160, 29);
+            this.SubEmail.TabIndex = 45;
             // 
-            // button1
+            // AddRecord
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(512, 525);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 29);
-            this.button1.TabIndex = 46;
-            this.button1.Text = "Add Record";
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddRecord.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.AddRecord.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.AddRecord.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.AddRecord.Location = new System.Drawing.Point(512, 525);
+            this.AddRecord.Name = "AddRecord";
+            this.AddRecord.Size = new System.Drawing.Size(146, 29);
+            this.AddRecord.TabIndex = 46;
+            this.AddRecord.Text = "Add Record";
+            this.AddRecord.UseVisualStyleBackColor = false;
+            this.AddRecord.Click += new System.EventHandler(this.AddRecord_Click);
             // 
-            // button2
+            // Clear
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(664, 524);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(131, 29);
-            this.button2.TabIndex = 47;
-            this.button2.Text = "Clear";
-            this.button2.UseVisualStyleBackColor = false;
+            this.Clear.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Clear.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.Clear.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Clear.Location = new System.Drawing.Point(664, 524);
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(131, 29);
+            this.Clear.TabIndex = 47;
+            this.Clear.Text = "Clear";
+            this.Clear.UseVisualStyleBackColor = false;
             // 
             // AddNewForm
             // 
@@ -775,50 +776,50 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(811, 572);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.Clear);
+            this.Controls.Add(this.AddRecord);
+            this.Controls.Add(this.SubEmail);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.CopyIssued);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.EndDate);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.StartDate);
             this.Controls.Add(this.label19);
-            this.Controls.Add(this.comboBox8);
+            this.Controls.Add(this.BookAtCenter);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.AccNo);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.TelNo);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.MobileNo);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.comboBox6);
+            this.Controls.Add(this.ContactPerson);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.PinCode);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.comboBox5);
+            this.Controls.Add(this.Country);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.State);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.City);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.Address);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.LastName);
+            this.Controls.Add(this.MiddleName);
+            this.Controls.Add(this.FirstName);
+            this.Controls.Add(this.Title);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.ReciptNo);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.SubNo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
@@ -842,57 +843,57 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox Language;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox SubNo;
+        private System.Windows.Forms.TextBox ReciptNo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.ComboBox Title;
+        private System.Windows.Forms.TextBox FirstName;
+        private System.Windows.Forms.TextBox MiddleName;
+        private System.Windows.Forms.TextBox LastName;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox Address;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox City;
+        private System.Windows.Forms.ComboBox State;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox Country;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox PinCode;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox ContactPerson;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox MobileNo;
+        private System.Windows.Forms.TextBox TelNo;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.ComboBox CenterName;
+        private System.Windows.Forms.RadioButton AtCenter;
+        private System.Windows.Forms.RadioButton Direct;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton year3;
+        private System.Windows.Forms.RadioButton year1;
+        private System.Windows.Forms.RadioButton year5;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.TextBox AccNo;
+        private System.Windows.Forms.ComboBox BookAtCenter;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker StartDate;
+        private System.Windows.Forms.DateTimePicker EndDate;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox CopyIssued;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox SubEmail;
+        private System.Windows.Forms.Button AddRecord;
+        private System.Windows.Forms.Button Clear;
     }
 }
