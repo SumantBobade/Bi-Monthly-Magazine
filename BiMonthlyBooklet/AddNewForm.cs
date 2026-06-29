@@ -92,10 +92,13 @@ namespace BiMonthlyBooklet
             if (Direct.Checked)
             {
                 modeofdelv = Country.Text + "-" + "Direct";
+                center_namev = modeofdelv;
             }else if(AtCenter.Checked == true)
             {
                 modeofdelv = CenterName.Text;
-            }else if(Direct.Checked == false && AtCenter.Checked == false)
+                center_namev = modeofdelv;
+            }
+            else if(Direct.Checked == false && AtCenter.Checked == false)
             {
                 MessageBox.Show("Please select mode of delivery.");
                 flag = false;
@@ -170,6 +173,36 @@ namespace BiMonthlyBooklet
                 MessageBox.Show(i + " Record/s Added");
                 connection.con.Close();
             }
+        }
+
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            Language.Text = "";
+            SubNo.Text = "";
+            ReciptNo.Text = "";
+            Title.Text = "";
+            FirstName.Text = "";
+            MiddleName.Text = "";
+            LastName.Text = "";
+            Address.Text = "";
+            City.Text = "";
+            State.Text = "";
+            Country.Text = "";
+            PinCode.Text = "";
+            ContactPerson.Text = "";
+            MobileNo.Text = "";
+            TelNo.Text = "";
+            Direct.Checked = false;
+            AtCenter.Checked = false;
+            year1.Checked = false;
+            year3.Checked = false;
+            year5.Checked = false;
+            AccNo.Text = "";
+            BookAtCenter.Text = "";
+            SubEmail.Text = "";
+            StartDate.Text = DateTime.Now.ToString();
+            EndDate.Text = DateTime.Now.ToString();
+            CopyIssued.Text = "";
         }
     }
 }
