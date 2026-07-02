@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.Sub_No = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.SearchBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.Sub_Language = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -85,12 +85,6 @@
             this.DeleteBtn = new System.Windows.Forms.Button();
             this.ClearBtn = new System.Windows.Forms.Button();
             this.CloseBtn = new System.Windows.Forms.Button();
-            this.OfficialName = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.OfficialContact = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.OfficialEmail = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.SubType = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
@@ -117,15 +111,16 @@
             this.Sub_No.Size = new System.Drawing.Size(100, 29);
             this.Sub_No.TabIndex = 1;
             // 
-            // button1
+            // SearchBtn
             // 
-            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.button1.Location = new System.Drawing.Point(255, 10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 29);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = true;
+            this.SearchBtn.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.SearchBtn.Location = new System.Drawing.Point(255, 10);
+            this.SearchBtn.Name = "SearchBtn";
+            this.SearchBtn.Size = new System.Drawing.Size(80, 29);
+            this.SearchBtn.TabIndex = 2;
+            this.SearchBtn.Text = "Search";
+            this.SearchBtn.UseVisualStyleBackColor = true;
+            this.SearchBtn.Click += new System.EventHandler(this.SearchBtn_Click);
             // 
             // label2
             // 
@@ -678,69 +673,6 @@
             this.CloseBtn.Text = "Close Form";
             this.CloseBtn.UseVisualStyleBackColor = true;
             // 
-            // OfficialName
-            // 
-            this.OfficialName.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.OfficialName.Location = new System.Drawing.Point(151, 506);
-            this.OfficialName.Name = "OfficialName";
-            this.OfficialName.Size = new System.Drawing.Size(186, 29);
-            this.OfficialName.TabIndex = 58;
-            // 
-            // label28
-            // 
-            this.label28.CausesValidation = false;
-            this.label28.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.label28.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label28.Location = new System.Drawing.Point(8, 506);
-            this.label28.Name = "label28";
-            this.label28.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label28.Size = new System.Drawing.Size(137, 25);
-            this.label28.TabIndex = 57;
-            this.label28.Text = "Official Name:-";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // OfficialContact
-            // 
-            this.OfficialContact.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.OfficialContact.Location = new System.Drawing.Point(485, 508);
-            this.OfficialContact.Name = "OfficialContact";
-            this.OfficialContact.Size = new System.Drawing.Size(186, 29);
-            this.OfficialContact.TabIndex = 60;
-            // 
-            // label29
-            // 
-            this.label29.CausesValidation = false;
-            this.label29.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.label29.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label29.Location = new System.Drawing.Point(343, 508);
-            this.label29.Name = "label29";
-            this.label29.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label29.Size = new System.Drawing.Size(137, 50);
-            this.label29.TabIndex = 59;
-            this.label29.Text = "Official Contact No :-";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
-            // OfficialEmail
-            // 
-            this.OfficialEmail.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.OfficialEmail.Location = new System.Drawing.Point(827, 508);
-            this.OfficialEmail.Name = "OfficialEmail";
-            this.OfficialEmail.Size = new System.Drawing.Size(186, 29);
-            this.OfficialEmail.TabIndex = 62;
-            // 
-            // label30
-            // 
-            this.label30.CausesValidation = false;
-            this.label30.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.label30.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label30.Location = new System.Drawing.Point(684, 512);
-            this.label30.Name = "label30";
-            this.label30.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label30.Size = new System.Drawing.Size(137, 25);
-            this.label30.TabIndex = 61;
-            this.label30.Text = "Official Email ID :-";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
             // SubType
             // 
             this.SubType.Font = new System.Drawing.Font("Palatino Linotype", 12F);
@@ -793,12 +725,6 @@
             this.Controls.Add(this.label32);
             this.Controls.Add(this.SubType);
             this.Controls.Add(this.label31);
-            this.Controls.Add(this.OfficialEmail);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.OfficialContact);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.OfficialName);
-            this.Controls.Add(this.label28);
             this.Controls.Add(this.CloseBtn);
             this.Controls.Add(this.ClearBtn);
             this.Controls.Add(this.DeleteBtn);
@@ -853,7 +779,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Sub_Language);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.SearchBtn);
             this.Controls.Add(this.Sub_No);
             this.Controls.Add(this.label1);
             this.Name = "UpdateRecordForm";
@@ -868,7 +794,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox Sub_No;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button SearchBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox Sub_Language;
         private System.Windows.Forms.Label label3;
@@ -923,12 +849,6 @@
         private System.Windows.Forms.Button DeleteBtn;
         private System.Windows.Forms.Button ClearBtn;
         private System.Windows.Forms.Button CloseBtn;
-        private System.Windows.Forms.TextBox OfficialName;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TextBox OfficialContact;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.TextBox OfficialEmail;
-        private System.Windows.Forms.Label label30;
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.TextBox SubType;
         private System.Windows.Forms.Label label31;

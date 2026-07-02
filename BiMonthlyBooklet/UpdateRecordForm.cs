@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Sql;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.Sql;
-using System.Data.SqlClient;
 
 namespace BiMonthlyBooklet
 {
@@ -41,7 +42,41 @@ namespace BiMonthlyBooklet
             EndDate.DataBindings.Add("Text", dsview, "Subscription_Details.EndDate");
 
             NoOfCopies.DataBindings.Add("Text", dsview, "Subscription_Details.NoofCopies");
+            CopiesIssued.DataBindings.Add("Text", dsview, "Subscription_Details.Copy_Issued");
+            Comments.DataBindings.Add("Text", dsview, "Subscription_Details.Comments");
+            AccNo.DataBindings.Add("Text", dsview, "Subscription_Details.AccNo");
+            SubEmailId.DataBindings.Add("Text", dsview, "Subscription_Details.Sub_EmailID");
+            Remarks.DataBindings.Add("Text", dsview, "Subscription_Details.Remarks");
+        }
 
+        public void bind2()
+        {
+            SubType.DataBindings.Clear();
+            Sub_Language.DataBindings.Clear();
+            Title.DataBindings.Clear();
+            FName.DataBindings.Clear();
+            MName.DataBindings.Clear();
+            LName.DataBindings.Clear();
+            Address.DataBindings.Clear();
+            Center.DataBindings.Clear();
+            City.DataBindings.Clear();
+            State.DataBindings.Clear();
+            Country.DataBindings.Clear();
+            PinCode.DataBindings.Clear();
+            ContactNo1.DataBindings.Clear();
+            ContactNo2.DataBindings.Clear();
+
+            BookedAtCenter.DataBindings.Clear(); 
+            SubYears.DataBindings.Clear();
+            StartDate.DataBindings.Clear();
+            EndDate.DataBindings.Clear();
+
+            NoOfCopies.DataBindings.Clear();
+            CopiesIssued.DataBindings.Clear();
+            Comments.DataBindings.Clear();
+            AccNo.DataBindings.Clear();
+            SubEmailId.DataBindings.Clear();
+            Remarks.DataBindings.Clear();
         }
         public UpdateRecordForm()
         {
@@ -63,6 +98,26 @@ namespace BiMonthlyBooklet
         private void SubType_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void SearchBtn_Click(object sender, EventArgs e)
+        {
+            bind2();
+            if (Sub_No.Text.Length != 0)
+            {
+                string sub_No = Sub_No.Text;
+                adp = new SqlDataAdapter("Select * from Subscription_Details where Subscriber_no ='" + sub_No + "'", connection.con);
+                DataSet ds = new DataSet();
+                adp.Fill(ds, "Subscription_Details");
+                DataTable dt = new DataTable();
+                dt = ds.Tables["Subscription_Details"];
+                dsview = ds.DefaultViewManager;
+                bind1();
+            }
+            else
+            {
+                MessageBox.Show("Please enter the value of subscription No for search.");
+            }
         }
     }
 }
