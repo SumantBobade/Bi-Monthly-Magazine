@@ -162,6 +162,7 @@
             this.ReciptNo.Name = "ReciptNo";
             this.ReciptNo.Size = new System.Drawing.Size(156, 29);
             this.ReciptNo.TabIndex = 6;
+            this.ReciptNo.TextChanged += new System.EventHandler(this.ReciptNo_TextChanged);
             // 
             // label3
             // 
@@ -563,6 +564,7 @@
             this.CenterName.Name = "CenterName";
             this.CenterName.Size = new System.Drawing.Size(107, 30);
             this.CenterName.TabIndex = 32;
+            this.CenterName.SelectedIndexChanged += new System.EventHandler(this.CenterName_SelectedIndexChanged);
             // 
             // AtCenter
             // 

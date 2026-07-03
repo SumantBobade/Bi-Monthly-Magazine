@@ -650,6 +650,7 @@
             this.DeleteBtn.TabIndex = 54;
             this.DeleteBtn.Text = "Delete";
             this.DeleteBtn.UseVisualStyleBackColor = true;
+            this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
             // 
             // ClearBtn
             // 
@@ -661,6 +662,7 @@
             this.ClearBtn.TabIndex = 55;
             this.ClearBtn.Text = "Clear";
             this.ClearBtn.UseVisualStyleBackColor = true;
+            this.ClearBtn.Click += new System.EventHandler(this.ClearBtn_Click);
             // 
             // CloseBtn
             // 
@@ -672,6 +674,7 @@
             this.CloseBtn.TabIndex = 56;
             this.CloseBtn.Text = "Close Form";
             this.CloseBtn.UseVisualStyleBackColor = true;
+            this.CloseBtn.Click += new System.EventHandler(this.CloseBtn_Click);
             // 
             // SubType
             // 

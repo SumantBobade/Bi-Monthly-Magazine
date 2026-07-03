@@ -204,5 +204,15 @@ namespace BiMonthlyBooklet
             EndDate.Text = DateTime.Now.ToString();
             CopyIssued.Text = "";
         }
+
+        private void CenterName_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ReciptNo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
