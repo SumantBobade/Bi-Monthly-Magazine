@@ -199,8 +199,26 @@
             this.City.Font = new System.Drawing.Font("Palatino Linotype", 12F);
             this.City.FormattingEnabled = true;
             this.City.Items.AddRange(new object[] {
-            "English",
-            "Hindi"});
+            "Ahmedabad",
+            "Amritsar",
+            "Bengaluru",
+            "Bhopal",
+            "Chennai",
+            "Delhi",
+            "Hyderabad",
+            "Indore",
+            "Jaipur",
+            "Kanpur",
+            "Kochi",
+            "Kolkata",
+            "Lucknow",
+            "Mumbai",
+            "Nagpur",
+            "Patna",
+            "Pune",
+            "Surat",
+            "Visakhapatnam",
+            "Wardha"});
             this.City.Location = new System.Drawing.Point(150, 209);
             this.City.Name = "City";
             this.City.Size = new System.Drawing.Size(187, 30);
@@ -222,8 +240,10 @@
             this.Country.Font = new System.Drawing.Font("Palatino Linotype", 12F);
             this.Country.FormattingEnabled = true;
             this.Country.Items.AddRange(new object[] {
-            "English",
-            "Hindi"});
+            "India",
+            "UAE",
+            "US",
+            "UK"});
             this.Country.Location = new System.Drawing.Point(150, 245);
             this.Country.Name = "Country";
             this.Country.Size = new System.Drawing.Size(187, 30);
@@ -701,8 +721,34 @@
             this.State.Font = new System.Drawing.Font("Palatino Linotype", 12F);
             this.State.FormattingEnabled = true;
             this.State.Items.AddRange(new object[] {
-            "English",
-            "Hindi"});
+            "Andhra Pradesh",
+            "Arunachal Pradesh",
+            "Assam",
+            "Bihar",
+            "Chhattisgarh",
+            "Goa",
+            "Gujarat",
+            "Haryana",
+            "Himachal Pradesh",
+            "Jharkhand",
+            "Karnataka",
+            "Kerala",
+            "Madhya Pradesh",
+            "Maharashtra",
+            "Manipur",
+            "Meghalaya",
+            "Mizoram",
+            "Nagaland",
+            "Odisha",
+            "Punjab",
+            "Rajasthan",
+            "Sikkim",
+            "Tamil Nadu",
+            "Telangana",
+            "Tripura",
+            "Uttar Pradesh",
+            "Uttarakhand",
+            "West Bengal"});
             this.State.Location = new System.Drawing.Point(151, 287);
             this.State.Name = "State";
             this.State.Size = new System.Drawing.Size(187, 30);
