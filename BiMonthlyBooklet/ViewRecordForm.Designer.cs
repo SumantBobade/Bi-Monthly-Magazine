@@ -92,6 +92,7 @@
             this.SearchOption.Font = new System.Drawing.Font("Palatino Linotype", 12F);
             this.SearchOption.FormattingEnabled = true;
             this.SearchOption.Items.AddRange(new object[] {
+            "----------",
             "Recipt No",
             "Subscription No",
             "Title",
@@ -120,6 +121,7 @@
             this.Recipt_No.Name = "Recipt_No";
             this.Recipt_No.Size = new System.Drawing.Size(161, 29);
             this.Recipt_No.TabIndex = 3;
+            this.Recipt_No.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Recipt_No_KeyPress);
             // 
             // label2
             // 
@@ -431,6 +433,7 @@
             this.MobileNo.Name = "MobileNo";
             this.MobileNo.Size = new System.Drawing.Size(161, 29);
             this.MobileNo.TabIndex = 29;
+            this.MobileNo.KeyUp += new System.Windows.Forms.KeyEventHandler(this.MobileNo_KeyUp);
             // 
             // label16
             // 
@@ -450,6 +453,7 @@
             this.Tel_No.Name = "Tel_No";
             this.Tel_No.Size = new System.Drawing.Size(161, 29);
             this.Tel_No.TabIndex = 31;
+            this.Tel_No.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Tel_No_KeyUp);
             // 
             // label17
             // 
@@ -510,6 +514,7 @@
             this.ViewAllRecords.TabIndex = 38;
             this.ViewAllRecords.Text = "View All Records";
             this.ViewAllRecords.UseVisualStyleBackColor = false;
+            this.ViewAllRecords.Click += new System.EventHandler(this.ViewAllRecords_Click);
             // 
             // CloseForm
             // 
@@ -533,6 +538,7 @@
             this.Clear.TabIndex = 40;
             this.Clear.Text = "Clear";
             this.Clear.UseVisualStyleBackColor = false;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // GridView
             // 
@@ -545,7 +551,7 @@
             // 
             // label19
             // 
-            this.label19.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label19.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label19.Font = new System.Drawing.Font("Palatino Linotype", 12F);
             this.label19.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label19.Location = new System.Drawing.Point(350, 591);
