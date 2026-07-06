@@ -58,6 +58,7 @@
             this.Exit.TabIndex = 73;
             this.Exit.Text = "Exit";
             this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // Clear
             // 
@@ -69,6 +70,7 @@
             this.Clear.TabIndex = 72;
             this.Clear.Text = "&Clear";
             this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // Update
             // 

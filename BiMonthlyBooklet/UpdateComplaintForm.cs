@@ -26,11 +26,10 @@ namespace BiMonthlyBooklet
         public void bind1()
         {
             SubNo.DataBindings.Add("Text", dview, "Complaint_Data.Subscriber_No");
-            SubName.DataBindings.Add("Text", dview, "Complaint_Data.Suberiber_Name");
+            SubName.DataBindings.Add("Text", dview, "Complaint_Data.Subscriber_Name");
             ComDetails.DataBindings.Add("Text", dview, "Complaint_Data.Complaint_Details");
             ComDate.DataBindings.Add("Text", dview, "Complaint_Data.Complaint_Date");
             ComResolve.DataBindings.Add("Text", dview, "Complaint_Data.Complaint_Resolve");
-            ResolveDate.DataBindings.Add("Text", dview, "Complaint_Data.Resolve_Date");
             ResolveDate.DataBindings.Add("Text", dview, "Complaint_Data.Resolve_Date");
         }
 
@@ -42,7 +41,6 @@ namespace BiMonthlyBooklet
             ComDate.DataBindings.Clear();
             ComResolve.DataBindings.Clear();
             ResolveDate.DataBindings.Clear();
-            ResolveDate.DataBindings.Clear();
         }
 
         public void enable1()
@@ -50,7 +48,6 @@ namespace BiMonthlyBooklet
             
             ComDetails.Enabled = true;
             ComResolve.Enabled = true;
-            ResolveDate.Enabled = true;
             ResolveDate.Enabled = true;
         }
 
@@ -61,7 +58,6 @@ namespace BiMonthlyBooklet
             ComDetails.Enabled = false;
             ComDate.Enabled = false;
             ComResolve.Enabled = false;
-            ResolveDate.Enabled = false;
             ResolveDate.Enabled = false;
         }
 
@@ -88,7 +84,36 @@ namespace BiMonthlyBooklet
 
         private void AddBtn_Click(object sender, EventArgs e)
         {
-            SqlCommand comm = new SqlCommand("Update Complaint_Data set Complaint_Details='"+ComDetails.Text+"')
+            SqlCommand comm = new SqlCommand("Update Complaint_Data set Complaint_Details='" + ComDetails.Text + "', Complaint_Resolve='" + ComResolve.Text + "', Resolve_Date='" + ResolveDate.Text + "' Where Complaint_ID='" + ComID.Text + "'", connection.con);
+            connection.con.Open();
+            int i = comm.ExecuteNonQuery();
+            MessageBox.Show(i+" Records Added");
+            connection.con.Close();
+
+            ComID.Text = "";
+            SubNo.Text = "";
+            SubName.Text = "";
+            ComDetails.Text = "";
+            ComDate.Value = DateTime.Now;
+            ComResolve.Text = "";
+            ResolveDate.Value = DateTime.Now;
+        }
+
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            ComID.Text = "";
+            SubNo.Text = "";
+            SubName.Text = "";
+            ComDetails.Text = "";
+            ComDate.Value = DateTime.Now;
+            ComResolve.Text = "";
+            ResolveDate.Value = DateTime.Now;
+            disable1();
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
