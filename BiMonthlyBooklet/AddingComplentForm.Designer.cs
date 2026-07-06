@@ -141,7 +141,6 @@
             // 
             // ResolveDate
             // 
-            this.ResolveDate.Enabled = false;
             this.ResolveDate.Font = new System.Drawing.Font("Palatino Linotype", 12F);
             this.ResolveDate.Location = new System.Drawing.Point(166, 370);
             this.ResolveDate.Name = "ResolveDate";
@@ -193,6 +192,7 @@
             this.AddBtn.TabIndex = 54;
             this.AddBtn.Text = "&Add the Complaint";
             this.AddBtn.UseVisualStyleBackColor = true;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // Clear
             // 
@@ -204,6 +204,7 @@
             this.Clear.TabIndex = 55;
             this.Clear.Text = "&Clear";
             this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // Exit
             // 
@@ -221,7 +222,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(462, 450);
+            this.ClientSize = new System.Drawing.Size(462, 466);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.Clear);
             this.Controls.Add(this.AddBtn);

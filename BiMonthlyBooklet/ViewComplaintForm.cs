@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace BiMonthlyBooklet
 {
@@ -15,6 +17,14 @@ namespace BiMonthlyBooklet
         public ViewComplaintForm()
         {
             InitializeComponent();
+        }
+
+        private void UpdateBtn_Click(object sender, EventArgs e)
+        {
+            SqlDataAdapter adp = new SqlDataAdapter("Select * From Complaint_Data Order by Complaint_ID", connection.con);
+            DataSet ds = new DataSet();
+            adp.Fill(ds, "Complaint_Data");
+            dataGridView1.DataSource = ds.Tables[0].DefaultView;
         }
     }
 }
