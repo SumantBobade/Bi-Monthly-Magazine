@@ -16,3 +16,7 @@ D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.ViewRecordFor
 D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.AddingComplentForm.resources
 D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.UpdateComplaintForm.resources
 D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.ViewComplaintForm.resources
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\bin\Debug\BiMonthlyBooklet.exe.manifest
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\bin\Debug\BiMonthlyBooklet.application
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.exe.manifest
+D:\VS\BiMonthlyBooklet\BiMonthlyBooklet\obj\Debug\BiMonthlyBooklet.application

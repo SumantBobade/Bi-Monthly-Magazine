@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:updatecomplaintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|d:\\vs\\bimonthlybooklet\\bimonthlybooklet\\addingcomplentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\addingcomplentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4258D38-2412-4603-88CD-C757D7274251}|BiMonthlyBooklet.csproj|solutionrelative:addingcomplentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -76,7 +76,7 @@
               "RelativeDocumentMoniker": "UpdateComplaintForm.cs",
               "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\UpdateComplaintForm.cs",
               "RelativeToolTip": "UpdateComplaintForm.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAArwF0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAArwGIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-06T17:51:51.248Z",
               "EditorCaption": ""
@@ -90,8 +90,7 @@
               "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\UpdateComplaintForm.cs [Design]",
               "RelativeToolTip": "UpdateComplaintForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T16:57:02.537Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-25T16:57:02.537Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "AddingComplentForm.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA0wB8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T18:40:57.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T18:40:57.034Z"
             },
             {
               "$type": "Document",
@@ -115,8 +113,7 @@
               "ToolTip": "D:\\VS\\BiMonthlyBooklet\\BiMonthlyBooklet\\AddingComplentForm.cs [Design]",
               "RelativeToolTip": "AddingComplentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T17:49:26.024Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-07-06T17:49:26.024Z"
             },
             {
               "$type": "Document",

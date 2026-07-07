@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BiMonthlyBooklet.exe" version="1.0.0.0" publicKeyToken="c81d23a22ea2b216" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BiMonthlyBooklet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BiMonthlyBooklet.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BiMonthlyBooklet.exe" size="132008">
+      <assemblyIdentity name="BiMonthlyBooklet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7UzrgNhn//DjEzFl5QceQhLLhqf+bM9AtG/orcUgFuw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BiMonthlyBooklet.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SUMANT\suman" issuerKeyHash="2ff4dab62926b29da220a44c966a088fef65b6f4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>I0H5h6phVrlc9oIvDvBSiE+f4HVHGM7Vkx1XL5Rm35k=</DigestValue></Reference></SignedInfo><SignatureValue>A5g7BpI5zymfuXyII1EbWry+C+YqOwo+W1goz+he8/MF34SqJpFEvr4mw8Xb9WYyqqi9N2Fcw5Jl11Xjh3Uhju0CmOj6FYQNh1WtgaJV/AIFCXNwR2rs+/XCXgj29YXIPiNL6UwC2bWm2V4SJInqdg+1tOhwE9YkMgWb3HImXWQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sUs09kpNuVAlWyZKngLgMLS9pNPoqO5YuI+hJfn5crvyqIMz6wmPRFv+dNHAmYTzq5QI1J5b834D2eR9h7212ElhixSozhwZm5zkosUf73eOF65C+IZDh/x2nd5z0rnh6+gYWcF8PDOQ7q2S1QGwiRG0TF+nn02EA8v7X2ll72U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="99df66942f571d93d5ce184775e09f4f8852f00e2f82f65cb95661aa87f94123" Description="" Url=""><as:assemblyIdentity name="BiMonthlyBooklet.exe" version="1.0.0.0" publicKeyToken="c81d23a22ea2b216" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SUMANT\suman</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dxWADHYeZezZhlyymWG4O1lvqbd1CitNQHqAvyS6eNw=</DigestValue></Reference></SignedInfo><SignatureValue>jHa7ICQCZXlsq8cXkY2sJJXQ7EkjbaDvG3N9FkTRX4YK9sbLFQJ3cKzyIIaK6ZYIj3Lk7FiNTI+s6cmVz0Dy9BpD3ZeLn9fm0+HbEKYGbHSPzHKK5DI1EqI8KcMu2xZuQS0iRjYMo70UfBiII1UXdlRBwbvV9L9MKA5MHiaHRZE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sUs09kpNuVAlWyZKngLgMLS9pNPoqO5YuI+hJfn5crvyqIMz6wmPRFv+dNHAmYTzq5QI1J5b834D2eR9h7212ElhixSozhwZm5zkosUf73eOF65C+IZDh/x2nd5z0rnh6+gYWcF8PDOQ7q2S1QGwiRG0TF+nn02EA8v7X2ll72U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQMLdLX1prgIVJZWqAnddIwDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAUwBVAE0AQQBOAFQAXABzAHUAbQBhAG4wHhcNMjYwNzA3MTcyNDQ4WhcNMjcwNzA3MjMyNDQ4WjAjMSEwHwYDVQQDHhgAUwBVAE0AQQBOAFQAXABzAHUAbQBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALFLNPZKTblQJVsmSp4C4DC0vaTT6KjuWLiPoSX5+XK78qiDM+sJj0Rb/nTRwJmE86uUCNSeW/N+A9nkfYe9tdhJYYsUqM4cGZuc5KLFH+93jheuQviGQ4f8dp3ec9K54evoGFnBfDwzkO6tktUBsIkRtExfp59NhAPL+19pZe9lAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAAVoKZKMQxYWS/9w25oL693UVb/1kK+toSqrsA1rPncmLLtFVlBwhizoK2czuT0jgQVBW93Qv7gZukVe0879pr05rgtQKinzraGVFSGQjFKaGMv86smT44wcYlQdphM2Dp15wxWDw0YO6dYblLPn7R+u/+ckdC8O12+QT+GnQ2Uk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
