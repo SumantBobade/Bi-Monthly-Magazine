@@ -62,17 +62,33 @@ This project demonstrates my skills in **desktop application development**, **da
 ## 📂 Project Structure
 
 ```text
-Bi-Weekly-Magazine/
+BiMonthlyBooklet/
 │
-├── Forms/
-├── Models/
-├── Database/
-├── Reports/
-│   └── Crystal Reports
-├── DataAccess/
-├── Utilities/
-├── Resources/
-└── Program.cs
+├── Properties/
+│   ├── AssemblyInfo.cs
+│   ├── Resources.resx
+│   └── Settings.settings
+│
+├── References/
+│   ├── System
+│   ├── System.Data
+│   ├── System.Windows.Forms
+│   ├── SAP Crystal Reports Libraries
+│   └── Other .NET References
+│
+├── AddingComplaintForm.cs          # Add new complaint records
+├── AddNewForm.cs                   # Add new booklet/magazine records
+├── Form1.cs                        # Login/Startup Form
+├── MainMenu.cs                     # Main Dashboard
+├── ViewRecordForm.cs               # View existing records
+├── UpdateRecordForm.cs             # Update records
+├── ViewComplaintForm.cs            # View complaints
+├── UpdateComplaintForm.cs          # Update complaint details
+├── GenerateReportForm.cs           # Generate Crystal Reports
+│
+├── Program.cs                      # Application Entry Point
+├── App.config                      # Application Configuration
+└── BiMonthlyBooklet_TemporaryKey.pfx
 ```
 
 ---
@@ -80,7 +96,7 @@ Bi-Weekly-Magazine/
 ## 🏗️ Architecture
 
 ```text
-## 🏛️ Application Architecture
+ 🏛️ Application Architecture
 
                         ┌─────────────────────────────┐
                         │      Windows Forms UI       │
@@ -176,13 +192,13 @@ This project helped me strengthen my knowledge of:
 
 ## 👨‍💻 Author
 
-**Y**
+**Sumant Bobade**
 
 Software Developer | .NET Developer
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/SumantBobade
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://linkedin.com/in/sumant-bobade
 
 ---
 
